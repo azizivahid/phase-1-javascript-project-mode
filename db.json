@@ -1,0 +1,28 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "title": "JavaScript from Beginner to Professional",
+      "author": "Laurence Lars Svekis, Maaike van Putten, Rob Percival",
+      "publisher": "Packt Publishing",
+      "image": "https://m.media-amazon.com/images/I/51YB0gZp+aL._SX258_BO1,204,203,200_.jpg",
+      "abstract": "JavaScript from Beginner to Professional focuses on key programming concepts and Document Object Model manipulations that are used to solve common problems in professional web applications. These include data validation, manipulating the appearance of web pages, working with asynchronous and concurrent code."
+    },
+    {
+      "title": "JavaScript: The Definitive Guide",
+      "author": " David Flanagan",
+      "publisher": "O'Reilly Media",
+      "image": "https://m.media-amazon.com/images/I/510JuXSc2HL._SX379_BO1,204,203,200_.jpg",
+      "abstract": "JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout.",
+      "id": 2
+    },
+    {
+      "title": "Head First JavaScript Programming",
+      "author": " Eric Freeman, Elisabeth Robson",
+      "publisher": "O'Reilly Media",
+      "image": "https://m.media-amazon.com/images/I/519dx5KHv-L._SX430_BO1,204,203,200_.jpg",
+      "abstract": "This brain-friendly guide teaches you everything from JavaScript language fundamentals to advanced topics, including objects, functions, and the browser’s document object model. You won’t just be reading—you’ll be playing games, solving puzzles, pondering mysteries, and interacting with JavaScript in ways you never imagined. And you’ll write real code, lots of it, so you can start building your own web applications.",
+      "id": 3
+    }
+  ]
+}

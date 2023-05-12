@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Bookish library </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="text/javascript" src="./index.js"></script>
+
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+        <ul id="searchResults"></ul>
+
+</head>
+
+
+<body id = "body">
+   
+    <div id="library-list">
+        <!-- Books Image -->
+    </div>
+    <div id="Book-detail" hidden>
+        <!--img class="detail-image" src="./assets/image-placeholder.jpg" alt="" /-->
+        <div id="detailBookFrame">
+            <h2 class="title"></h2>
+            <h3 class="author"></h3>
+            <h3 class="publisher"></h3>
+            <h4 class="abstract"></h4>
+            <h6 class="id"> </h6>
+            <button id="deleteBtn" hidden>Delete</button>
+        </div>
+      </div>
+
+    <div id="addNewBookFrame">
+        <h4>Add New Book</h4>
+
+    <form id="new-Book">    
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="new-Title" />
+
+        <label for="author">Author: </label>
+        <input type="text" name="author" id="new-Author" />
+
+        <label for="publisher">Publisher: </label>
+        <input type="text" name="publisher" id="new-Publisher" />
+
+        
+        <label for="image">Image: </label>
+        <input type="text" name="image" id="new-image" />
+
+        <label for="abstract">Abstract: </label>
+        <textarea name="abstract" id="new-Abstract"></textarea>
+        <input type="submit" value="submit" />
+      </form>
+
+    </div>
+</body>
+
+
+</html>

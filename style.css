@@ -1,0 +1,54 @@
+
+ *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fafafa;
+    display: ruby-base-container;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/bg.png') no-repeat  fixed  ;
+ 
+  }
+
+  
+  #addNewBookFrame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+  form {
+    margin: 1rem 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+
+  input[type="submit"] {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+#Book-detail{
+  color: beige;
+  border-style: ridge;
+}
